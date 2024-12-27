@@ -31,20 +31,7 @@ html_content = """<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Occupation des salles</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
-        th {
-            background-color: #f4f4f4;
-            text-align: left;
-        }
-    </style>
+    <link rel="stylesheet" href="html/css/style.css">
 </head>
 <body>
     <h1>Occupation des salles</h1>
