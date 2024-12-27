@@ -1,0 +1,56 @@
+/* Style général pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+/* Style pour les cellules */
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+}
+
+/* Style pour l'en-tête du tableau */
+th {
+    background-color: #009879;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Style pour les lignes du tableau */
+tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+/* Alternance des couleurs de fond pour les lignes */
+tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+
+/* Style pour la dernière ligne du tableau */
+tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+/* Effet de survol pour les lignes */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Style pour le conteneur de la table (facultatif) */
+.table-container {
+    overflow-x: auto;
+    margin: 0 auto;
+    max-width: 90%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
